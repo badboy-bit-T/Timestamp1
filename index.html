@@ -12,7 +12,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/style.css">
 
-
+<script>if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("/service-worker.js")
+    .then((reg) => console.log("Service Worker registered:", reg))
+    .catch((err) => console.error("SW registration failed:", err));
+}</script>
 </head>
 <body class="bg-dark">
     <div id='template'>
