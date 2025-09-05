@@ -235,7 +235,9 @@ $(document).ready(function() {
     $("#upload").on("change", function (e) {
         const files = Array.from(e.target.files).slice(0, 5);
         if (!files.length) return;
-
+        if (files.length > 5) {
+            alert("Maksimal hanya memdukung 5 file sekaligus")
+        }
         $("#output-container").empty();
         $("#download-image").show();
         allWrappers = [];
