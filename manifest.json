@@ -1,12 +1,21 @@
 {
   "name": "Centeng App",
-  "short_name": "TimeStamp",
+  "short_name": "Centeng App",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "orientation": "portrait",
   "icons": [
+    {
+      "src": "assets/img/android-icon-720x720.png",
+      "sizes": "720x720",
+      "type": "image/png"
+    },{
+      "src": "assets/img/android-icon-1200x1200.png",
+      "sizes": "1200x1200",
+      "type": "image/png"
+    },
     {
       "src": "assets/img/apple-icon-57x57.png",
       "sizes": "57x57",
