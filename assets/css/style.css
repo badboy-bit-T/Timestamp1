@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'MarkiFont';
     src: url('../font/marki_font.ttf') format('truetype');
@@ -650,4 +649,4 @@ border-radius: 5px;
 padding: 4px 8px;
 cursor: pointer;
 font-size: 12px;
-  }
+}
