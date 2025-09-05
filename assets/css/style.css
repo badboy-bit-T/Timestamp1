@@ -28,17 +28,10 @@ body {
 h1,h2,h3,h4 {
     margin: 0;
 }
-body,html, .rmin {
-    max-width: 427px !important;
-    height: auto;
-
+.rmin {
+    width : 100%
 }
-.my-bg {
-    background: linear-gradient(35deg, #0a0a0a 0%, #0d1b2a 50%, #1b263b 100%);
-    backface-visibility: hidden;
-    background-repeat: no-repeat;
-}
-    .space-beetwen-i {
+.space-beetwen-i {
 
     height: 100vh;
     display: flex;
